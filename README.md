@@ -2,7 +2,7 @@
 
 Análise exploratória e estatística dos preços praticados no mercado brasileiro de combustíveis, com base nos dados disponibilizados pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP).
 
-> Projeto focado no mapeamento da variação média de preços por região/estado, identificação de disparidades regionais e análise da evolução temporal das margens de revenda.
+> **Projeto:** Mapeamento da variação média de preços por região e estado, identificação de disparidades regionais e análise da evolução temporal das margens de revenda.
 
 ---
 
@@ -18,11 +18,10 @@ Análise exploratória e estatística dos preços praticados no mercado brasilei
 ## 📁 Estrutura do Repositório
 
 ```text
-├── data/       -> Instruções sobre a base de dados
-├── scripts/    -> Scripts R de extração, limpeza e análise
-├── reports/    -> Gráficos gerados e relatórios (HTML/PDF)
+├── Script Diesel e Diesel S-10.R
 ├── .gitignore
 └── README.md
+```
 
 🗄️ Fonte dos Dados
 Devido ao tamanho da base original da ANP (anp.csv, ~3.4 GB), o arquivo bruto não está versionado neste repositório.
