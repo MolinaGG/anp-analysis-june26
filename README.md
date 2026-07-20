@@ -26,17 +26,21 @@ Análise exploratória e estatística dos preços praticados no mercado brasilei
 🗄️ Fonte dos Dados
 Devido ao tamanho da base original da ANP (anp.csv, ~3.4 GB), o arquivo bruto não está versionado neste repositório.
 
-Fonte oficial: Dados Abertos ANP
+Fonte: https://www.kaggle.com/datasets/paulogladson/anp-combustveis
 
 🚀 Como Executar
 Clone o repositório:
+```bash
 git clone https://github.com/MolinaGG/anp-analysis-june26.git
+```
 
 Adicione a base de dados:
 Baixe o arquivo .csv no portal da ANP e salve na raiz do projeto como anp.csv.
 
-Execute os scripts no RStudio:
-source("scripts/analise.R")
+Execute no RStudio:
+```R
+source("Script Diesel e Diesel S-10.R")
+```
 
 ✒️ Autor
 Guilherme Molina Solano — Análise e Desenvolvimento
